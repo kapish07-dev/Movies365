@@ -13,7 +13,6 @@ body,
 
 *::-webkit-scrollbar {
   background: rgba(161, 197, 255, 0.973);
-  /* width: 10px; */
   border-radius: 1rem;
 }
 
@@ -23,15 +22,7 @@ body,
 }
 
 *::-webkit-scrollbar-thumb {
-  /* border-radius: 15%; */
   min-height: 1rem;
   background-color: #75a7ffb8;
 
 }
-
-/* *::-webkit-scrollbar-button {
-
-} */
-/* *::-webkit-scrollbar-button { 
-
-}*/

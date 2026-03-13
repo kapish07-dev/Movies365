@@ -49,10 +49,12 @@ body {
   transform: translateY(-1.15px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 .up-effect-max {
   transition: transform 0.4s ease, box-shadow 0.2s ease;
 
 }
+
 .up-effect-max:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
