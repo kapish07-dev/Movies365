@@ -1,0 +1,24 @@
+.empty-favorites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.empty-favorites img {
+    width: 100px;
+    opacity: 0.85;
+}
+
+.empty-favorites p {
+    font-weight: 600;
+    margin: 0;
+}
+
+.empty-favorites small {
+    font-size: 13px;
+    color: #9ca3af;
+}
