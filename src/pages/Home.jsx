@@ -6,7 +6,8 @@ import Spinner from "../components/Spinner";
 import NoResults from "../components/NoResults";
 import "../App.css";
 
-const API_KEY = "4a3b711b";
+// const API_KEY = "4a3b711b";
+const API_KEY = "7dfbc4ab";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState(() => {

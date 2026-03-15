@@ -12,7 +12,7 @@ function App() {
       <header className="app-header">
         <div className="container header-inner">
           <Link to="/" className="logo">
-            🎬 KapixxMovies.io
+            🎬 Movies365
           </Link>
           <nav className="header-nav">
             <Link className="up-effect" to="/">Home</Link>
