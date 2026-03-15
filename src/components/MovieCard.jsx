@@ -23,24 +23,24 @@ export default function MovieCard({ movie, addToFavorites }) {
           alt={movie.Title}
           style={{
             width: "100%",
-            height: 240,
+            height: 280,
             objectFit: "cover",
             display: "block",
           }}
         />
       </Link>
 
-      <div className="movie-info" style={{ padding: 12 }}>
-        <h3 style={{ fontSize: 15, margin: "0 0 6px" }}>{movie.Title}</h3>
+      <div className="movie-info" style={{ padding: 8 }}>
+        <h3 style={{ fontSize: 15, margin: "0 0 2px" }}>{movie.Title}</h3>
         <p style={{ margin: 0, color: "var(--muted)", fontSize: 13 }}>
           {movie.Year}
         </p>
-        <div style={{ marginTop: 10, display: "flex", gap: 8 }}>
+        <div style={{ marginTop: 8, display: "flex", gap: 8 }}>
           <button
             className="up-effect"
             onClick={() => addToFavorites(movie)}
             style={{
-              padding: "8px 10px",
+              padding: "8px 8px",
               background: "transparent",
               border: "1px solid rgba(255,255,255,0.06)",
               color: "#fff",
